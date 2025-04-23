@@ -1,0 +1,14 @@
+site_name: 'python-app'
+site_description: 'Main documentation for the python-app'
+repo_url: https://github.com/gemcdermott/python-app
+edit_uri: edit/main/docs
+
+# what plugin are we going to use to build the HTML
+# techdocs-core is a Backstage plugin that use mkdocs
+plugins:
+  - techdocs-core
+
+# For sidebar navigation on https://backstage.io/, see 'microsite/sidebars'
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'

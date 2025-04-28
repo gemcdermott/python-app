@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: gmcder1/python-app:${GITHUB_SHA::6}
+          tags: gmcder1/python-app:latest

@@ -5,11 +5,11 @@ on:
     paths:
       - src/**
     branches:
-      -main
+      - main
 
 jobs:
   docker:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       -
         name: Login to Docker Hub
